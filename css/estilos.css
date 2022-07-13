@@ -1,0 +1,57 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: rgba(203, 221, 255, 0.37);
+}
+nav{
+    background-color:rgb(199, 110, 110);
+    color: white;
+    height: 80px;
+}
+.texto-nav{
+    font-size: 32px;
+
+}
+.titulo1{
+    text-align: center;
+    color: rgb(194, 59, 59);
+    height: 80px;
+}
+.texto1{
+    margin: 20px;
+    font-size: 32px;
+    text-align: center;
+    color: rgb(171, 16, 16);
+    height: 80px;
+    
+}
+.comentario3 {
+    text-align: center;
+    font-size: 28px;
+    color: rgb(69, 110, 113);
+    height: 80px;
+}
+
+footer{
+    background-color:rgb(110, 199, 199);
+    color: white;
+    height: 80px;
+}
+.Redes{
+    font-size: 30px;
+    margin-left: 40px ;
+}
+.iconos{
+    display: flex;
+    justify-content:space-around;
+    
+}
+.btn {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    margin-bottom: 30px;
+}
