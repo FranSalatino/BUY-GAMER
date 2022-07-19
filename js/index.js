@@ -20,11 +20,6 @@ for (let provincia of provincias){
 }
 
 
-
-//al agregar esta nueva parte no me aparecen las ediciones hechas arriba, 
-//si pongo la consola si aparecen , solo no se ven en la página
-//Ejemplo Aplicado de Plantillas Litrales e InnerHTMl para crear 4 tarjetas de productos
-
 const productos = [{id:1 ,nombre:"GeForce GTX 1660 SUPER Twin Fan Black", imagen:"./images/placa1.jpg", precio:54000},
                   {id:2 ,nombre:"monitor zowie by benq 144hz", imagen:"./images/monitor.jpg", precio: 24900},
                   {id:3 ,nombre:"nootbook asus", imagen:"./images/notebook.jpg", precio: 80000},
@@ -52,18 +47,8 @@ boton.addEventListener("click", function(){
     }            
 });
 
-function actualizsarButomcarrito (){
-    <button type="button" class="btn btn-primary position-relative">
-  Inbox
-  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-    99+
-    <span class="visually-hidden">Tu carrito</span>
-  </span>
-</button>
-}
 
-guardarProductosLS(productos);
-renderProductos();
+
 
     
 
